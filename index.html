@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+    <head>
+     <!--   <meta charset="utf-8"> -->
+        <meta name="description" content="Ejemplo de HTML5">
+        <meta name="keywords" content="HTML5, CSS3, JavaScript">
+        <meta name="viewport" content= "width=device-width, initial-scale=1.0, user-scalable=no"/> 
+        <link rel="icon" type="image/png" href="calculadora.png" />
+        <title>Conversion entre tipos de numeración </title>
+        <link rel="stylesheet" href="traduceChino.css">
+
+    </head>
+    <body>
+        <div id="agrupar">
+            <header id="cabecera">
+                <h1  style="text-align: center;color:#648e91;"  >Yo se escribir en CHINO con ñ y á acentuda</h1>
+            </header>
+            <aside id="columna">
+                <header>
+                    <h2>
+                        Datos de Tipo String
+                        UNICODE 
+                    </h2>
+                    <h2>
+                        String
+                    </h2>
+                </header>
+                <blockquote>
+                  La clase String  incluye métodos y propiedades para procesar string. Un string es un array de caracteres,con un índice entre 0 y número_de_caracteres-1. Cada índice representa un carácter del  string.
+                  <b>Método length  devuelve la longitud</b>, número de caracteres contenidos en el string : 'ciudad'.length => 6</br>
+                  <b>Utilizando el string como un array:'ciudad'[2] => ‘u’</b> . Devuelve el carácter del indice 2(comienza en 0).</br>
+                  <b>Método:'ciudad'.charCodeAt(2) =>  117 </b>  Devuelve código UNICODE de tercer carácter </br>
+                <b>Método:'ciudad'.indexOf('da') => 3 </b> Devuelve posición de substring </br>
+                <b>Método:'ciudad'.substring(2,5) => 'uda' </b>	  Devuelve substring entre ambos índices</br>
+                </blockquote>
+            </aside>
+            <section id="seccion">
+                <article>
+                    <div class="datos">
+                    <a href="" onclick="window.close()"><img src="D:\Fernando\Chino\Chino\bolsa-de-reciclaje.png" alt=""></i></a>
+                    <input type="text" id="modo" required placeholder="Convertir de carácteres a UNICODE "  />
+                    </div>
+                    <div id="info"></div>
+                </article>
+            </section>
+            
+            <footer id="pie">
+                Desarrollo de Aplicaciones Web(<cite>DAW</cite>) &copy; 2021-2022 CIFP Santa Catalina
+            </footer>
+        </div>
+        <script src="demo.js">
+        </script>
+    </body>
+</html>
